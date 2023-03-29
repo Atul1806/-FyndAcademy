@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="atul.css">
+    <style>
+        body{
+            background: url(Images/login.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .log_box{
+            border: 4px solid #0000ff;
+            border-radius: 5%;
+            background: url(Images/login2.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover; 
+            margin-top: 100px; padding: 20px; width: 40%;
+        }
+        label{
+            color: rgb(5, 5, 139);
+        }
+    </style>
+</head>
+
+<body>
+    
+    <nav id="navbar">
+        <div id="logo" class="logo">
+            <img src="images/logo.jpg" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="Project1.html" >Home</a></li>
+            <li class="item"><a href="" >About us</a></li>
+            <li class="item"><a href="" >login/singUp</a></li>
+            <li class="item"><a href="contactUS.html" >Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <center>
+        <div class="log_box"    ">
+            <h1 style="color: rgb(12, 121, 29);">REGISTRATION</h1>
+            <p style="color: rgb(5, 5, 139);">Fill these form to register yourself</p>
+            <hr>
+            <form action="login.html">
+                <label for="name">Enter your name :</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <br>
+                <br>
+                <label for="db">Enter your date of birth :</label>
+                <input type="date" id="db" name="date" placeholder="Enter your date of birth" required>
+                <br>
+                <br>
+                <label for="num">Enter your mobile number :</label>
+                <input type="number" id="num" name="num" placeholder="Enter your mobile number" required>
+                <br>
+                <br>
+                <label for="mail">Enter your Email :</label>
+                <input type="email" id="mail" name="mail" value="@gmail.com" required>
+                <br>
+                <br>
+                <label for="pass">Password :</label>
+                <input type="password" id="pass" name="password" placeholder="Password" required>
+                <br>
+                <br>
+                <label for="pass1"> Confirm Password :</label>
+                <input type="password" id="pass1" name="password" placeholder="Password" required>
+                <hr>
+                <button><a href="login.html">Register</a></button>
+            </form>
+            <p>Already have account?<a href="login.html">Login</a></p>
+        </div>
+        <br>
+        <br>
+        <center>
+            <footer style="background-color: rgb(13, 7, 19); color: bisque; padding: 5px; ">
+                <h2>about us:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit incidunt ex optio illo reiciendis recusandae aut rerum ipsam,
+                     tempora vel consectetur, laborum sed necessitatibus, quibusdam adipisci 
+                    delectus aspernatur voluptates non! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore animi dolorem 
+                    cupiditate eius voluptates quam culpa? Ut fugiat, provident qui hic aperiam amet molestias suscipit consequatur dolor 
+                    necessitatibus, doloremque aspernatur.</p>
+            </footer>
+        </center>
+</body>
+
+</html>

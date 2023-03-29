@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order succesfull</title>
+    <link rel="stylesheet" href="atul.css">
+    <Style>
+        body{
+            background: url(images/tp5.gif);
+            background-size: 80%;
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            background-position-x: center;
+            /* z-index: -1; */
+        }
+        .msg{
+            text-align: center;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+            font-size: 50px;
+            margin: 40px;
+            /* text-decoration: underline;
+            text-decoration-style: dashed ; */
+            /* background-size: cover; */
+
+            /* border: 5px solid; */
+        }
+        .d1{
+            position: relative;
+        }
+        .d2{
+            display: none;
+            position: absolute;
+            top: 20px;
+            left: 1100px;
+            
+            border: double 2px black;
+            border-radius: 5%;
+            background-clip: content-box;
+        }
+        .d3{
+            display: none;
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            
+            border: double 2px black;
+            border-radius: 5%;
+            background-clip: content-box;
+        }
+        .d1:hover .d2{
+            display: block;
+            /* width: 200px;
+            height: 200px; */
+            z-index: 1;
+        }
+        .d1:hover .d3{
+            display: block;
+            /* width: 200px;
+            height: 200px; */
+            z-index: 1;
+        }
+        h1{
+            text-align: center;
+            text-decoration: none;
+            /* width: fit-content; */
+            /* border: 2px;
+            border-radius: 5%; */
+            color:  black  ;
+            /* font-size: 20px; */
+            /* background-color     : rgb(29, 26, 47); */
+        }
+        .emoji {
+            height: 25px;
+            color: white;
+            border-radius: 50%;
+        }
+    </Style>
+</head>
+<body>
+
+    <nav id="navbar">
+        <div id="logo" class="logo">
+            <img src="Images/logo.jpg   " alt="foody.com">
+        </div>
+        <ul>
+            <li class="item"><a href="Project1.html" >Home</a></li>
+            <li class="item"><a href="" >About us</a></li>
+            <li class="item"><a href="login.html" >login/singUp</a></li>
+            <li class="item"><a href="contactUS.html" >Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="msg">Your order is on its way <img class="emoji" src="Images/emoji1.jpg" alt=""></div>
+    <div class="d1">
+        <center>
+            <a href="Project1.html">
+                <h1>Order more</h1>
+            </a>
+        </center>
+        <div class="d2"><img src="images/BackGround1.gif" alt=""></div>
+        <div class="d3"><img src="images/order1.jpeg" alt=""></div>
+
+    </div>
+</body>
+</html>

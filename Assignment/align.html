@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .vertical_align{
+            background-color: cadetblue;
+            border: 3px solid;
+            border-radius: 10%;
+            padding: 5px;
+            font-size: large;
+            margin: 10px;
+        }
+        .a {
+            vertical-align: text-top;
+            text-decoration: underline;
+        }
+
+        .b {
+            vertical-align: text-bottom;
+            text-decoration: underline;
+        }
+
+        .c {
+            vertical-align: sub;
+            text-decoration: underline;
+        }
+
+        .d {
+            vertical-align: super;
+            text-decoration: underline;
+        }
+        div{
+            background-color: blueviolet;
+            color: azure;
+            font-size: 40px;
+            padding: 20px;
+            background-size: contain;
+            border: 5px solid green;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical_align">
+        <p>Lorem <span class="a"> vertical-align (text-top) example </span> <span class="b">vertical-align (text-bottom) example</span> amet consectetur adipisicing elit. Soluta cumque, repellendus nulla corporis asperiores <span class="c">vertical-align (sub) example</span> provident accusamus, sint, sed laboriosam saepe ex modi <span class="d">Lorem ipsum dolor sit amet. </span> consequatur quos nisi atque ipsum magnam officia labore?</p>
+    </div>
+    <div class="transform">
+        This is example for transform
+    </div>
+</body>
+</html>

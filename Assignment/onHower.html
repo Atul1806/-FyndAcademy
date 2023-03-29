@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time_Table</title>
+    <style>
+        table{
+            width: 60%;
+            height: 300px;
+            border: 5px solid;
+        }
+        td{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        #react {
+            background-color: rgb(44, 161, 152)
+        }
+        #html {
+            background-color: rgb(172, 217, 94)
+        }
+        #css {
+            background-color: rgb(251, 156, 167)
+        }
+        #js {
+            background-color: rgb(72, 126, 180)
+        }
+        .d1{
+            position: relative;
+        }
+        .d2{
+            display: none;
+            position: absolute;
+            top: 20px;
+            left: 50px;
+            /* border: double 2px black;
+            border-radius: 5%;
+            background-clip: content-box; */
+        }
+        .d1:hover .d2{
+            display: block;
+            width: 200px;
+            height: 200px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <table border="2px">
+        <colgroup>
+            <col style="background-color:rgb(205, 95, 17)">
+            <!-- <col style="background-color:yellow"> -->
+          </colgroup>
+        <thead>
+            <tr style="background-color:rgb(133, 124, 172)">
+                <th > Time </th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+              </tr>
+        </thead>
+        <tr>
+            <th>9:00 AM-9:30 AM</th>
+            <td id="html">
+                <div class="d1">HTML
+                    <div class="d2"><img src="images/teacher1.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="html">
+                <div class="d1">HTML
+                    <div class="d2"><img src="images/teacher1.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="html">
+                <div class="d1">HTML
+                    <div class="d2"><img src="images/teacher1.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="html">
+                <div class="d1">HTML
+                    <div class="d2"><img src="images/teacher1.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="js">
+                <div class="d1">JS
+                    <div class="d2"><img src="images/teacher2.jpeg" alt=""></div>
+                </div>
+            </td>
+            <th rowspan="6" bgcolor="pink">Practice</th>
+          </tr>
+          <tr>
+            <th>9:30 AM-10:00 AM</th>
+            <td id="css">
+                <div class="d1">CSS
+                    <div class="d2"><img src="images/teacher5.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="css">
+                <div class="d1">CSS
+                    <div class="d2"><img src="images/teacher5.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="react">
+                <div class="d1">REACT
+                    <div class="d2"><img src="images/teacher3.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="css">
+                <div class="d1">CSS
+                    <div class="d2"><img src="images/teacher5.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="css">
+                <div class="d1">CSS
+                    <div class="d2"><img src="images/teacher5.jpeg" alt=""></div>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <th>10:00 AM-10:30 AM</th>
+            <td id="js">
+                <div class="d1">JS
+                    <div class="d2"><img src="images/teacher2.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="js">
+                <div class="d1">JS
+                    <div class="d2"><img src="images/teacher2.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="js">
+                <div class="d1">JS
+                    <div class="d2"><img src="images/teacher2.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="js">
+                <div class="d1">JS
+                    <div class="d2"><img src="images/teacher2.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="html">
+                <div class="d1">HTML
+                    <div class="d2"><img src="images/teacher1.jpeg" alt=""></div>
+                </div>
+            </td>
+          </tr>
+          <tr >
+            <th>10:30 AM-11:00 AM</th>
+            <th colspan="5" bgcolor="Green">Break</th>
+          </tr>
+          <tr>
+            <th>11:00 AM-11:30 AM</th>
+            <td id="react">
+                <div class="d1">REACT
+                    <div class="d2"><img src="images/teacher3.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="react">
+                <div class="d1">REACT
+                    <div class="d2"><img src="images/teacher3.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="css">
+                <div class="d1">CSS
+                    <div class="d2"><img src="images/teacher5.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="react">
+                <div class="d1">REACT
+                    <div class="d2"><img src="images/teacher3.jpeg" alt=""></div>
+                </div>
+            </td>
+            <td id="react">
+                <div class="d1">REACT
+                    <div class="d2"><img src="images/teacher3.jpeg" alt=""></div>
+                </div>
+            </td>
+          </tr>
+    </table>
+</body>
+</html>

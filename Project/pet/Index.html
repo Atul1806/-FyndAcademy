@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Style>
+        body{
+            margin: 0;
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+                /* background:url("Images/bg1.jpeg");
+                background-size: cover; */
+            box-sizing: border-box;
+            /* position: relative; */
+        }
+        .outer{
+            display: flex;
+        }
+        .img1 {
+            width: 100%;
+            height: 100%;
+            transition-duration: 3s;
+        }
+        .inner{
+            width: 400px;
+            height: 100vh;
+            transition: 3s;
+        }
+        .outer:hover .img1{
+            border: 5px solid black;
+            border-radius: 50%;
+        }
+        .outer:hover .inner1{
+            transform: translate(-350px, 0px); 
+        }
+        .outer:hover .inner2{
+            transform: translate(360px, 0px);
+        }
+        .outer:hover .inner_M{
+            display: block; 
+            
+        }
+        .inner_M{
+            display: none;
+            transition: 3s;
+            position: absolute;
+            left: 30%;
+            top: 20%;
+            width: 43%;
+            z-index: -1;
+        }
+        
+    </Style>
+</head>
+<body>
+    <div class="outer">
+        <div class="inner inner1">
+            <img class="img1" src="./Images/dog4.jpeg" alt="">
+        </div>
+        <div class="inner_M">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam quam perferendis sunt ducimus sapiente exercitationem in praesentium voluptatibus voluptate, minus voluptas eveniet vero doloribus odit voluptatum officia fugiat! Magnam!</p>
+        </div>
+        <div class="inner inner2">
+            <img class="img1" src="./Images/cat3.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
